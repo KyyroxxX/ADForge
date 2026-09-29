@@ -1,0 +1,33 @@
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+secrets/
+
+# Virtual machines
+*.vdi
+*.vmdk
+*.vbox
+*.ova
+*.iso
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+
+# Generated reports
+reports/generated/
